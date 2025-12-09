@@ -1,0 +1,21 @@
+{
+  "name": "zodiac-fortune-app",
+  "version": "1.0.0",
+  "description": "星座运势手机应用 - 支持手机和电脑端访问",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 8080",
+    "start": "npx http-server -p 8080 -c-1",
+    "build": "echo '构建完成'",
+    "deploy": "echo '部署到网络服务器'"
+  },
+  "keywords": ["星座", "运势", "手机应用", "响应式"],
+  "author": "星座运势团队",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
